@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MyPage</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #f4f4f9;
+      font-family: Arial, sans-serif;
+  }
+
+    .card {
+      background-color: #ffffff;
+      padding: 20px;
+      border-radius: 10px;
+      display: flex;
+      flex-direction: row;
+      width: 500px;
+    }
+
+    .profile-img {
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      margin: 0 20px 0 0;
+    }
+
+    .profile-info {
+      display: flex;
+      flex-direction: column;
+    }
+
+    .name {
+      font-size: 24px;
+      margin: 10px 0;
+      color: #333;
+    }
+
+    .desc {
+      font-size: 16px;
+      margin: 5px 0;
+      color: #555;
+    }
+
+    .btns {
+      margin-top: 20px;
+    }
+
+    .btn {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 20px;
+      margin: 5px;
+      border-radius: 5px;
+      font-size: 14px;
+      text-decoration: none;
+      margin-top: 3px;
+    }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <img
+      src="https://firebasestorage.googleapis.com/v0/b/bangkit-dashboard/o/production%2F2024-B2%2Fprofiles%2Fc6cb53cc-dc3b-4ec8-b6d9-6ceb0fb97c18.jpg?alt=media&token=adc703a4-08e6-416b-8ef5-0435bf4acb51"
+      alt="my photo"
+      class="profile-img">
+    <div class="profile-info">
+      <h2 class="name">Nama: Romi Yusnandar</h2>
+      <p class="desc">NIM: 2206077</p>
+      <p class="desc">Kelas: Informatika-C</p>
+      <p class="desc">Alamat: Tanjung</p>
+
+      <div class="btns">
+        <a href="index.html" class="btn">Home</a>
+        <a href="profile.html" class="btn">Profile</a>
+        <a href="blog.html" class="btn">Blog</a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
